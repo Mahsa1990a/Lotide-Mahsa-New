@@ -16,11 +16,11 @@ const countOnly = function(allItems, itemsToCount) {
   for (let item of allItems) {
     //console.log(item);
     //console.log(itemsToCount[item]);
-    if (itemsToCount[item]) {
-      console.log("results[item] ", results[item]);
-      if (results[item]) {
-        results[item] += 1;
-      } else {
+    if (itemsToCount[item]) {                // if itemToCount of that key is true
+      //console.log("results[item] ", results[item]);
+      if (results[item]) {                  //if result of that key is true
+        results[item] += 1;                // add more to it
+      } else {                             // if not equal only one
         results[item] = 1;
       } 
     }
