@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@mahsa1990a/lotide1",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Mahsa1990a/Lotide-Mahsa-New.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mahsa Arabameri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mahsa1990a/Lotide-Mahsa-New/issues"
